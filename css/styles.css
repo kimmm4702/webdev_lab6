@@ -14,9 +14,12 @@ background-color: #ccc;<br>color: #333;
 }
 
 #header h1{ 
-float: left;
-position: relative;
-right: 50%;
+position: absolute;
+left: 420px;
+top:5px;
+font-size: 3em;
+font-family: 'Devonshire', cursive;
+color: #E35335;
 }
 
 #header a#logo1 img
