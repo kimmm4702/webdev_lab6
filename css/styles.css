@@ -29,9 +29,18 @@ margin-left: 20px;
 margin-bottom: 20px;}
 
 
-#header #toplink
+#header #toplink{ 
+text-decoration: none;
+position: absolute;
+top:-34px;
+right: 10px;
+color: white;
+font-size: 1.8em;}
 
-#footer
+#footer{ 
+background-color: #777;
+height: 80px;
+clear: both;}
 
 #content-wrapper{ 
 background-image: url("../images/repeating.png");
@@ -41,7 +50,13 @@ float: left;}
 
 h2 strong
 
-.image-r
+.image-r{ 
+float: right;
+border: 2px solid blue;
+width: 300px;
+padding: 5px;
+background-color: white;
+margin: 10px 0 10px 20px;}
 
 #side-content
 
