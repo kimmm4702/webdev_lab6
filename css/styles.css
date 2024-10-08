@@ -1,18 +1,23 @@
-body{ background-image: url("../images/black.jpg"); }
+body{ 
+	background-image: url("../images/black.jpg"); 
+}
 
 
-#page-wrapper
-{ background-color: #ccc;<br>
-  color: #333;}
-
-#header
-{ 
+#page-wrapper{
 margin-top: 20px;
 margin-left: 20px;
-margin-bottom: 20px;}
+margin-bottom: 20px;
+}
 
-#header h1
+#header{ 
+background-color: #ccc;<br>color: #333;
+}
 
+#header h1{ 
+float: left;
+position: relative;
+right: 50%;
+}
 
 #header a#logo1 img
 
